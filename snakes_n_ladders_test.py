@@ -41,3 +41,7 @@ def test_snakesAndLadders():
     s = Solution()
     assert s.snakesAndLadders([[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1],[-1,35,-1,-1,13,-1],[-1,-1,-1,-1,-1,-1],[-1,15,-1,-1,-1,-1]]) == 4
     assert s.snakesAndLadders([[-1,-1],[-1,3]]) == 1
+
+if __name__ == "__main__":
+    test_snakesAndLadders()
+    

@@ -36,3 +36,5 @@ def test_romanToInt():
     assert s.romanToInt("LVIII") == 58
     assert s.romanToInt("MCMXCIV") == 1994
     
+if __name__ == "__main__":
+    test_romanToInt()

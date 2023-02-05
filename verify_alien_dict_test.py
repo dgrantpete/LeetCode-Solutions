@@ -26,3 +26,7 @@ def test_isAlienSorted():
     assert s.isAlienSorted(["hello","leetcode"], "hlabcdefgijkmnopqrstuvwxyz") == True
     assert s.isAlienSorted(["word","world","row"], "worldabcefghijkmnpqstuvxyz") == False
     assert s.isAlienSorted(["apple","app"], "abcdefghijklmnopqrstuvwxyz") == False
+
+if __name__ == "__main__":
+    test_isAlienSorted()
+    

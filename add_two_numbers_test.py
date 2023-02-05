@@ -38,3 +38,7 @@ def test_addTwoNumbers():
     assert s.addTwoNumbers(ListNode(2, ListNode(4, ListNode(3))), ListNode(5, ListNode(6, ListNode(4)))) == ListNode(7, ListNode(0, ListNode(8)))
     assert s.addTwoNumbers(ListNode(0), ListNode(0)) == ListNode(0)
     assert s.addTwoNumbers(ListNode(9, ListNode(9, ListNode(9, ListNode(9, ListNode(9, ListNode(9, ListNode(9))))))), ListNode(9, ListNode(9, ListNode(9, ListNode(9))))) == ListNode(8, ListNode(9, ListNode(9, ListNode(9, ListNode(0, ListNode(0, ListNode(0, ListNode(1))))))))
+
+if __name__ == "__main__":
+    test_addTwoNumbers()
+    

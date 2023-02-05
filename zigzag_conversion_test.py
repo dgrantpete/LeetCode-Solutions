@@ -36,3 +36,7 @@ def test_convert():
     assert s.convert("ABCD", 4) == "ABCD"
     assert s.convert("ABCDE", 4) == "ABCED"
     assert s.convert("ABCDE", 5) == "ABCDE"
+
+if __name__ == "__main__":
+    test_convert()
+    
